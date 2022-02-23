@@ -1,0 +1,249 @@
+﻿
+@font-face {
+    font-family: 'MPLUSRounded1c-Bold';
+    src: url('../Fonts/MPLUSRounded1c-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'MPLUSRounded1c-Black';
+    src: url('../Fonts/MPLUSRounded1c-Black.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'MPLUSRounded1c-ExtraBold';
+    src: url('../Fonts/MPLUSRounded1c-ExtraBold.ttf') format('truetype');
+}
+body {
+}
+.portfolio {
+    background-image: url('/images/Asset 2gardient_bg.svg');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position-x: center;
+    background-size: cover;
+    /* padding: 0 !important; */
+    /* position: relative; */
+    /* top: 10em; */
+    margin-top: 7em;
+}
+h1 {
+    color: #756464 !important;
+}
+#about{
+    margin: 0 auto;
+}
+.masthead-heading {
+    font-family: 'MPLUSRounded1c-Black';
+}
+.logoImg{
+    top: 2em;
+    position: absolute;
+}
+#not-misrad {
+    right: 9em;
+    width: 10em;
+    height: 7em;
+}
+#misrard {
+    right: 1em;
+    width: 7em;
+    height: 7em;
+}
+.sign-up {
+    background-color: #4D9058;
+    border-color: #383838;
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+    width: 80%;
+    font-size: 3rem;
+    font-family: 'MPLUSRounded1c-Black';
+    font-weight: 700;
+    margin: 0 auto;
+    padding: 0.4em;
+    border: 3px solid #383838;
+}
+.masthead {
+ 
+    background-image: url('../images/header.svg');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+.iframeSection{
+    padding: 4rem 0;
+}
+.sub-text {
+    color: #00A0CA;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.calendar-sub-text {
+    font-family: 'Assistant', sans-serif;
+    font-weight: 600;
+    margin-bottom: 2.5em;
+    text-align: right;
+}
+.calendar {
+    text-align: right;
+    font-family: 'MPLUSRounded1c-ExtraBold';
+    color: #383838;
+    font-weight: bold;
+    margin: 0.7em 0 1.1em 0;
+}
+.seder-yom-title {
+    font-family: 'Assistant', sans-serif;
+    text-align: right;
+    font-weight: bold;
+    color: #114894;
+    font-size: 2.5rem;
+    margin: 0.7em 0em;
+}
+.sadna-title {
+    text-align: right;
+    font-family: 'MPLUSRounded1c-ExtraBold';
+    color: #3D7246;
+    font-weight: bold;
+    margin: 1.1em 0;
+    /* margin: 1em 0em; */
+}
+#modalBtn {
+    background-color: #00A0CA;
+    border-color: #383838;
+    padding: 3em;
+}
+.hide {
+    display: none;
+    position: absolute;
+    top: 0;
+}
+
+ .portfolio-item:hover > .hide {
+    display: block !important;
+    color: red;
+}
+
+#calendar-info {
+    text-align: right;
+    font-weight: bold;
+    font-family: 'Assistant', sans-serif;
+}
+    #calendar-info > p {
+      font-size: 1.7rem;
+    }
+    .calendar-hour-style {
+        color: #00A0CA;
+        text-align: right;
+        font-weight: bolder;
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-size: 1.7rem;
+    }
+.fly {
+    font-size: 5rem !important;
+    font-family: 'MPLUSRounded1c-ExtraBold';
+}
+.modal-txt-and-btn{
+    position: relative;
+    top: -2em;
+}
+.portfolio-modal-title {
+    font-size: 3rem !important;
+    font-family: 'MPLUSRounded1c-ExtraBold';
+    color: #00A0CA !important;
+    text-align: right;
+}
+.modalP {
+    margin-top: 0.7em;
+    font-family: 'Assistant', sans-serif;
+    font-weight: bold;
+    direction: rtl;
+    text-align: right;
+    font-size: 2rem;
+}
+.header-hours {
+    font-size: 3rem !important;
+    font-family: 'Assistant', sans-serif;
+    font-weight: bold;
+}
+
+.portfolio-Btn {
+    background-image: url('/images/button_bg.svg');
+    background-repeat: no-repeat;
+    height: 11em;
+    width: 100%;
+}
+
+.activity {
+    color: #383838;
+    font-size: 7em;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: 'Assistant', sans-serif;
+}
+.calendar-grass {
+    background-image: url('/images/Asset 4grass.svg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 22.5em !important;
+    background-position-x: center;
+    background-size: cover;
+    position: absolute;
+}
+.masthead-cont {
+    align-content: center;
+    text-align: right;
+    position: relative;
+    top: 3em;
+}
+section{
+    background-color: white !important;
+}
+iframe {
+    width: 54vw;
+    height: 30vw;
+    margin-top: 4em;
+}
+@media (min-width: 1000px) {
+    iframe {
+        width: 54em;
+        height: 30em;
+        margin-top: 4em;
+    }
+}
+
+@media (max-width: 1200px) {
+    .masthead {
+        text-align: right;
+    }
+    .masthead-cont {
+        position: relative;
+        top: 2em;
+        text-align: right;
+    }
+    .masthead .masthead-heading {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+    .fly {
+        font-size: 4rem !important;
+        font-family: 'MPLUSRounded1c-ExtraBold';
+    }
+    .header-hours {
+        font-size: 2rem !important;
+        font-family: 'Assistant', sans-serif;
+        font-weight: bold;
+    }
+}
+@media (min-width: 1201px) {
+
+    .masthead-cont {
+        align-content: center;
+        text-align: center;
+    }
+}
+@media (max-width: 2000px) {
+
+    .masthead-cont {
+        align-content: center;
+        text-align: right;
+        position: relative;
+        top: 3em;
+    }
+}
